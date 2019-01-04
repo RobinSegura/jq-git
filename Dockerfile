@@ -7,6 +7,6 @@ RUN apk --update add git openssh curl jq bash grep && \
     rm /var/cache/apk/*
 
 VOLUME /git
-WORKDIR /git
+WORKDIR /home
 
 CMD ["sh"]
